@@ -1,6 +1,6 @@
 {
-    "name": "vagrant/devhelp.piwik.bundle.sandbox",
-    "license": "proprietary",
+    "name": "devhelp/piwik-bundle-sandbox",
+    "license": "MIT",
     "type": "project",
     "autoload": {
         "psr-4": {

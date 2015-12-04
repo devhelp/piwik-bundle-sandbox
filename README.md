@@ -1,3 +1,7 @@
+## Purpose
+
+Presents sample configuration of [devhelp/piwik-bundle](http://github.com/devhelp/piwik-bundle)
+
 ### Call demo.piwik.org
 
 ```
