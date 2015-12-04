@@ -1,0 +1,16 @@
+services:
+    my_piwik_client:
+        class: Devhelp\Piwik\Api\Guzzle\Client\PiwikGuzzleClient
+        arguments:
+            - @guzzle
+
+    guzzle:
+        class: GuzzleHttp\Client
+
+    my_piwik_method:
+        class: Devhelp\Piwik\Api\Method\Method
+        factory:
+            - @devhelp_piwik.api
+            - getMethod
+        arguments:
+            - Actions.get
